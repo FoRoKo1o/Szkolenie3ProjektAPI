@@ -58,7 +58,7 @@ namespace Szkolenie3API
 
             app.UseAuthorization();
 
-
+            app.UseCors("AllowAll");
             app.MapControllers();
 
             app.Run();
